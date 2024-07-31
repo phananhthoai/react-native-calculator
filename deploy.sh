@@ -4,5 +4,5 @@ set -ex
 
 echo "Push File GG"
 
-gdrive files upload $(cat output.txt) 1thn6snbU9ZAy6hUSkFx5A3Un0DawMvM2
+gdrive files upload $(cat output.txt) --parent 1thn6snbU9ZAy6hUSkFx5A3Un0DawMvM2
   
