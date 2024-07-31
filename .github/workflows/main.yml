@@ -4,20 +4,13 @@ on:
   push:
     branches: [ main ]
 env:
-  ANDROID_HOME: /opt/android-sdk  
+  ANDROID_HOME: /opt/android-sdk
 jobs:
   deploy:
     runs-on: self-hosted
-    outputs:
-      file: ${{ steps.step1.output.file }}
-    steps:      
+    steps:
       - uses: actions/checkout@v4
       - name: Build
         run: ./build.sh
-      - id: step1
-        run: |
-            
       - name: Deploy
-        env:
         run: ./deploy.sh
-      
