@@ -4,5 +4,5 @@ set -ex
 
 echo "Push File GG"
 
-gdrive files upload calculator-$(date +'%Y-%M-%d-%H-%M-%s).apk
+gdrive files upload "calculator-$(date +\"%Y-%M-%d-%H-%M-%s\").apk"
   
