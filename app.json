@@ -23,6 +23,14 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "82dda7c0-a461-452d-b4f8-e51311b59f52"
+      }
+    },
+    "android": {
+      "package": "com.phananhthoai.Calculator"
     }
   }
 }
