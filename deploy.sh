@@ -2,7 +2,7 @@
 
 set -ex
 
-echo "Push File GG"
+echo "Push File Google Drive"
 
 gdrive files upload $(cat output.txt) --parent 1thn6snbU9ZAy6hUSkFx5A3Un0DawMvM2
   
