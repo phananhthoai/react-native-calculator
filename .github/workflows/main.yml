@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
 env:
-  JAVA_HOME: /home/opt/android-sdk
+  JAVA_HOME: /opt/android-sdk
 jobs:
   deploy:
     runs-on: self-hosted
